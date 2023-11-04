@@ -1,7 +1,4 @@
-import Sparrow from "../../public/Sparrow.png";
-import ZirohDBCloudNew from "../../public/ZirohDBCloud (1).png";
-import ZirohDBCloudOld from "../../public/ZirohDBCloud (2).png";
-import Spotify from '../../public/Spotify.png'
+import Sparrow from "../../public/sparrow-image.png";
+import DeveloperImage from "../../public/developer-image.jpg"
 
-
-export {Sparrow,ZirohDBCloudNew,ZirohDBCloudOld,Spotify}
+export { Sparrow, DeveloperImage }
