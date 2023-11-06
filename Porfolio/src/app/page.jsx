@@ -9,7 +9,7 @@ import {
 import hashIcon from "../../public/hash-front-color.svg";
 import reactIcon from "../../public/react.png";
 import technology from "../../public/technology.png";
-import {   Sparrow, DeveloperImage } from "./images";
+import { Sparrow, DeveloperImage, Screen1, Screen2, Screen3 ,Phoenix} from "./images";
 
 export default function Home() {
   return (
@@ -121,74 +121,114 @@ export default function Home() {
         </div>
       </section>
       {/* project section */}
-      <section>
-        <div
-          className="p-8"
-        >
+      <section className="min-h-screen">
+        <div className="p-8">
           <h3 className="text-3xl py2 text-white">Projects</h3>
           <p className="text-white py-2">
             Throughout my journey, I have crafted a diverse range of captivating applications.
           </p>
-          <div className="flex flex-col gap-10 py-10 lg:flex-wrap lg:flex-row">
-            <div className="basis-1/3 flex-1">
-              <label className="font-bold text-white" htmlFor="zunu social">
-                Sparrow
-              </label>
-                <Image
-                  src={Sparrow}
-                  className="rounded-lg object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
-                  alt="sparrow social media"
-                  style={{ height: "100%", width: "100%" }}
-                />
+          <div className="flex justify-center mt-6 items-center flex-col">
+            <label className="font-bold text-white" htmlFor="zunu social">
+              Sparrow
+            </label>
+            <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
+              <div className="w-auto mb-4">
+                <div className="bg-gradient-to-b from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
+                  <Image
+                    src={Sparrow}
+                    className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
+                    alt="sparrow social media"
+                    style={{ height: "100%", width: "100%" }}
+                  />
+                </div>
+              </div>
+              <div className="w-auto">
                 <p className="text-white px-2">
-                  A social media application with encryption and modern decentralized approach . Its motive is to keep data of user secure in conjunction with ease to use.
+                  A social media application with encryption and modern decentralized approach.<br></br>
+                  Its motive is to keep data of user secure in conjunction with ease to use.<br></br>
 
-                  - Technologies : React.js , TypeScript ,Electron.js , Zustand , React Query
-                  - Worked on various features and it UI.
-                  - Implemented Pagination (infinite scroll ) in various UI components .
-                  - Implemented routing system in application using react-router.
-                  - Working with WebSocket to implement a notification system .
-                  - Using Fetching libraries ( React-Query ) for efficient and optimized API calls.
-                  - Used toaster library to notify users .
+                  - Technologies : React.js, TypeScript, Electron.js, Zustand, and React Query<br></br>
+                  - Worked on various features and it UI.<br></br>
+                  - Implemented Pagination (infinite scroll ) in various UI components.<br></br>
+                  - Implemented routing system in application using react-router.<br></br>
+                  - Working with WebSocket to implement a notification system.<br></br>
+                  - Using Fetching libraries ( React-Query ) for efficient and optimized API calls.<br></br>
+                  - Used toaster library to notify users.<br></br>
                 </p>
+              </div>
             </div>
-            <div className="basis-1/3 flex-1">
-              <label
-                className="font-bold text-white"
-                htmlFor="Ziroh DB old"
-              >
-                Phoenix
-              </label>
-                <Image
-                  src={Sparrow}
-                  className="rounded-lg object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
-                  alt="Ziroh DB Cloud "
-                  style={{ height: "100%", width: "100%" }}
-                />
+          </div>
+          <div className="flex justify-center mt-6 items-center flex-col">
+            <label
+              className="font-bold text-white"
+              htmlFor="Ziroh DB old"
+            >
+              Phoenix
+            </label>
+            <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
+              <div className="w-auto mb-4">
+                <div className=" bg-gradient-to-b from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
+                  <Image
+                    src={Phoenix}
+                    className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
+                    alt="Phoenix"
+                    style={{ height: "100%", width: "100%" }}
+                  />
+                </div>
+              </div>
+              <div className="w-auto">
                 <p className="px-2 text-white">
-                  Its a dashboard to show user email stats in UI .
+                  Its a dashboard to show user email stats in UI.<br></br>
 
-                  - Technologies : Next.js , Chart.js , Typescript
-                  - Various UI components like Graph ,Tables ,Speed-o-meter etc. was designed by me .
-                  - Made a UI to edit the configurations regarding dashboard .
-                  - Populated data in graphs and tables using APIs and WebSocket
-                  - Used library like Chart.js
+                  - Technologies : Next.js, Chart.js, and Typescript<br></br>
+                  - Various UI components like Graph, Tables, Speed-o-meter etc. was designed by me.<br></br>
+                  - Made a UI to edit the configurations regarding dashboard.<br></br>
+                  - Populated data in graphs and tables using APIs and WebSocket<br></br>
+                  - Used library like Chart.js<br></br>
                 </p>
+              </div>
+
             </div>
-            <div className="basis-1/3 flex-1">
-              <label
-                className="font-bold text-white"
-                htmlFor="Spotify Clone"
-              >
-                Zunu Message
-              </label>
-              <Image
-                  src={Sparrow}
-                  className="rounded-lg object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
-                  alt="spotify"
-                  style={{ height: "100%", width: "100%" }}
-                />
-                <p className="text-white px-2">mobile application</p>
+          </div>
+          <div className=" flex justify-center mt-6 items-center flex-col">
+            <label
+              className="font-bold text-white"
+              htmlFor="Spotify Clone"
+            >
+              Zunu Message
+            </label>
+            <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
+              <div className="w-auto mb-4">
+                <div className="bg-gradient-to-b flex gap-2 from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
+                  <Image
+                    src={Screen1}
+                    className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
+                    alt="zunu message"
+                    style={{ height: "100%", width: "100%" }}
+                  />
+                  <Image
+                    src={Screen2}
+                    className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
+                    alt="zunu message"
+                    style={{ height: "100%", width: "100%" }}
+                  />
+                  <Image
+                    src={Screen3}
+                    className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
+                    alt="zunu message"
+                    style={{ height: "100%", width: "100%" }}
+                  />
+                </div>
+              </div>
+              <div className="w-auto">
+                <p className="text-white px-2">
+                  Working on a Highly Scalable SMS and IP Messaging based mobile app in react native.<br></br>
+                  - Used Native Modules, React Navigation and Zustand.<br></br>
+                  - Used react-native-pdf library for showing pdf.<br></br>
+                  - Added Image zoom feature.<br></br>
+                  - Used react-native-video library for showing video.<br></br>
+                </p>
+              </div>
             </div>
           </div>
         </div>
