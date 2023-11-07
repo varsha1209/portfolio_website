@@ -111,7 +111,7 @@ export default function Home() {
             />
             <h3 className="font-bold text-white">Tools</h3>
             <p className="py-2 text-sm text-white">
-              Tools i am using in development...
+              Tools i am using for development...
             </p>
             {/* <h4 className="py-4 text-pink-600">My Tech Stack</h4> */}
             <p className="text-white py-1">VS Code</p>
