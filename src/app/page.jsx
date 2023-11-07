@@ -39,7 +39,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center w-auto">
-              <h2 className="text-5xl py-2 text-pink-600 font-bold">
+              <h2 className="text-4xl py-2 font-bold text-pink-500">
                 Varsha Dahare
               </h2>
               <h3 className="text-2xl py-2 text-white font-bold">
@@ -72,7 +72,7 @@ export default function Home() {
           </p>
         </div>
         <div className="lg:flex gap-10 justify-center">
-          <div className="text-center shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md p-10 rounded-xl my-10 flex flex-col items-center w-96 m-auto">
+          <div className="text-center shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md p-10 rounded-xl my-10 flex flex-col items-center m-auto">
             <Image
               src={reactIcon}
               width={100}
@@ -91,7 +91,7 @@ export default function Home() {
 
             <p></p>
           </div>
-          <div className="text-center shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md p-10 rounded-xl my-10 flex flex-col items-center w-96 m-auto">
+          <div className="text-center shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md p-10 rounded-xl my-10 flex flex-col items-center m-auto">
             <Image src={hashIcon} width={100} height={100} alt="tech stack" />
             <h3 className="font-bold text-white">Styles</h3>
             <p className="py-2 text-sm text-white">How i style my applications ...</p>
@@ -102,7 +102,7 @@ export default function Home() {
             <p className="text-white py-1">Material UI</p>
             <p></p>
           </div>
-          <div className="text-center shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md p-10 rounded-xl my-10 flex flex-col items-center w-96 m-auto">
+          <div className="text-center shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md p-10 rounded-xl my-10 flex flex-col items-center m-auto">
             <Image
               src={technology}
               width={100}
@@ -111,7 +111,7 @@ export default function Home() {
             />
             <h3 className="font-bold text-white">Tools</h3>
             <p className="py-2 text-sm text-white">
-              What tools come in handy while developing my apps ...
+              Tools i am using for development...
             </p>
             {/* <h4 className="py-4 text-pink-600">My Tech Stack</h4> */}
             <p className="text-white py-1">VS Code</p>
@@ -125,113 +125,111 @@ export default function Home() {
       </section>
       {/* project section */}
       <section className="min-h-screen">
-        <div className="p-8">
-          <h3 className="text-3xl py2 text-white">Projects</h3>
-          <p className="text-white py-2">
-            Throughout my journey, I have crafted a diverse range of captivating applications.
-          </p>
-          <div className="flex justify-center mt-6 items-center flex-col">
-            <label className="font-bold text-white" htmlFor="zunu social">
-              Sparrow
-            </label>
-            <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
-              <div className="w-auto mb-4">
-                <div className="bg-gradient-to-b from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
-                  <Image
-                    src={Sparrow}
-                    className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
-                    alt="sparrow social media"
-                    style={{ height: "100%", width: "100%" }}
-                  />
-                </div>
-              </div>
-              <div className="w-auto">
-                <p className="text-white px-2">
-                  A social media application with encryption and modern decentralized approach.<br></br>
-                  Its motive is to keep data of user secure in conjunction with ease to use.<br></br>
-
-                  - Technologies : React.js, TypeScript, Electron.js, Zustand, and React Query<br></br>
-                  - Worked on various features and it UI.<br></br>
-                  - Implemented Pagination (infinite scroll ) in various UI components.<br></br>
-                  - Implemented routing system in application using react-router.<br></br>
-                  - Working with WebSocket to implement a notification system.<br></br>
-                  - Using Fetching libraries ( React-Query ) for efficient and optimized API calls.<br></br>
-                  - Used toaster library to notify users.<br></br>
-                </p>
+        <h3 className="text-3xl py2 text-white">Projects</h3>
+        <p className="text-white py-2">
+          Throughout my journey, I have crafted a diverse range of captivating applications.
+        </p>
+        <div className="flex justify-center mt-6 items-center flex-col">
+          <label className="text-2xl font-bold text-pink-500" htmlFor="zunu social">
+            Sparrow
+          </label>
+          <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
+            <div className="w-auto mb-4">
+              <div className="bg-gradient-to-b from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
+                <Image
+                  src={Sparrow}
+                  className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
+                  alt="sparrow social media"
+                  style={{ height: "100%", width: "100%" }}
+                />
               </div>
             </div>
-          </div>
-          <div className="flex justify-center mt-6 items-center flex-col">
-            <label
-              className="font-bold text-white"
-              htmlFor="Ziroh DB old"
-            >
-              Phoenix
-            </label>
-            <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
-              <div className="w-auto mb-4">
-                <div className=" bg-gradient-to-b from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
-                  <Image
-                    src={Phoenix}
-                    className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
-                    alt="Phoenix"
-                    style={{ height: "100%", width: "100%" }}
-                  />
-                </div>
-              </div>
-              <div className="w-auto">
-                <p className="px-2 text-white">
-                  Its a dashboard to show user email stats in UI.<br></br>
+            <div className="w-auto">
+              <p className="text-white px-2">
+                A social media application with encryption and modern decentralized approach.<br></br>
+                Its motive is to keep data of user secure in conjunction with ease to use.<br></br>
 
-                  - Technologies : Next.js, Chart.js, and Typescript<br></br>
-                  - Various UI components like Graph, Tables, Speed-o-meter etc. was designed by me.<br></br>
-                  - Made a UI to edit the configurations regarding dashboard.<br></br>
-                  - Populated data in graphs and tables using APIs and WebSocket<br></br>
-                  - Used library like Chart.js<br></br>
-                </p>
-              </div>
-
+                - Technologies : React.js, TypeScript, Electron.js, Zustand, and React Query<br></br>
+                - Worked on various features and it UI.<br></br>
+                - Implemented Pagination (infinite scroll ) in various UI components.<br></br>
+                - Implemented routing system in application using react-router.<br></br>
+                - Working with WebSocket to implement a notification system.<br></br>
+                - Using Fetching libraries ( React-Query ) for efficient and optimized API calls.<br></br>
+                - Used toaster library to notify users.<br></br>
+              </p>
             </div>
           </div>
-          <div className=" flex justify-center mt-6 items-center flex-col">
-            <label
-              className="font-bold text-white"
-              htmlFor="Spotify Clone"
-            >
-              Zunu Message
-            </label>
-            <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
-              <div className="w-auto mb-4">
-                <div className="bg-gradient-to-b flex gap-2 from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
-                  <Image
+        </div>
+        <div className="flex justify-center mt-6 items-center flex-col">
+          <label
+            className="text-2xl font-bold text-pink-500"
+            htmlFor="phoenix"
+          >
+            Phoenix
+          </label>
+          <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
+            <div className="w-auto mb-4">
+              <div className=" bg-gradient-to-b from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
+                <Image
+                  src={Phoenix}
+                  className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
+                  alt="Phoenix"
+                  style={{ height: "100%", width: "100%" }}
+                />
+              </div>
+            </div>
+            <div className="w-auto">
+              <p className="px-2 text-white">
+                Its a dashboard to show user email stats in UI.<br></br>
+
+                - Technologies : Next.js, Chart.js, and Typescript<br></br>
+                - Various UI components like Graph, Tables, Speed-o-meter etc. was designed by me.<br></br>
+                - Made a UI to edit the configurations regarding dashboard.<br></br>
+                - Populated data in graphs and tables using APIs and WebSocket<br></br>
+                - Used library like Chart.js<br></br>
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div className=" flex justify-center mt-6 items-center flex-col">
+          <label
+            className="text-2xl font-bold text-pink-500"
+            htmlFor="Zunu Message"
+          >
+            Zunu Message
+          </label>
+          <div className="flex flex-row w-full justify-around flex-wrap mb-auto mt-2 h-max items-center">
+            <div className="w-auto mb-4">
+              <div className="bg-gradient-to-b flex gap-2 from-pink-500 w-full h-full overflow-hidden shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md">
+                {/* <Image
                     src={Screen1}
                     className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
                     alt="zunu message"
                     style={{ height: "100%", width: "100%" }}
-                  />
-                  <Image
-                    src={Screen2}
-                    className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
-                    alt="zunu message"
-                    style={{ height: "100%", width: "100%" }}
-                  />
-                  <Image
+                  /> */}
+                <Image
+                  src={Screen2}
+                  className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
+                  alt="zunu message"
+                  style={{ height: "100%", width: "100%" }}
+                />
+                {/* <Image
                     src={Screen3}
                     className="object-cover shadow-[#61b7b2] hover:shadow-[#cb2d6f] shadow-md"
                     alt="zunu message"
                     style={{ height: "100%", width: "100%" }}
-                  />
-                </div>
+                  /> */}
               </div>
-              <div className="w-auto">
-                <p className="text-white px-2">
-                  Working on a Highly Scalable SMS and IP Messaging based mobile app in react native.<br></br>
-                  - Used Native Modules, React Navigation and Zustand.<br></br>
-                  - Used react-native-pdf library for showing pdf.<br></br>
-                  - Added Image zoom feature.<br></br>
-                  - Used react-native-video library for showing video.<br></br>
-                </p>
-              </div>
+            </div>
+            <div className="w-auto">
+              <p className="text-white px-2">
+                Working on a Highly Scalable SMS and IP Messaging based mobile app in react native.<br></br>
+                - Used Native Modules, React Navigation and Zustand.<br></br>
+                - Used react-native-pdf library for showing pdf.<br></br>
+                - Added Image zoom feature.<br></br>
+                - Used react-native-video library for showing video.<br></br>
+              </p>
             </div>
           </div>
         </div>
