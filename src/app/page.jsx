@@ -1,30 +1,33 @@
 "use client";
 import Image from "next/image";
-import { BsFillMoonStarsFill } from "react-icons/bs";
-import {
-  AiFillTwitterCircle,
-  AiFillInstagram,
-  AiFillLinkedin,
-} from "react-icons/ai";
 import hashIcon from "../../public/hash-front-color.svg";
 import reactIcon from "../../public/react.png";
 import technology from "../../public/technology.png";
-import { Sparrow, DeveloperImage, Screen1, Screen2, Screen3 ,Phoenix} from "./images";
+import { Sparrow, DeveloperImage, Screen1, Screen2, Screen3, Phoenix, Linkdin, Github } from "./images";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="bg-[#0f292f] px-10 md:px-20 lg:px-40">
       <section className="min-h-screen">
-        <nav className="py-10 flex justify-between items-center">
-          <h1 className="text-xl font-burtons"></h1>
+        <nav className="pt-12 pb-2 flex justify-between items-center">
+          <div className="flex justify-items-start items-center gap-9">
+            <Link href="https://www.linkedin.com/in/varshapawar12/" rel="noopener noreferrer" target="_blank" className="text-white">
+              <Image src={Linkdin} alt="linkdin" className="h-9 w-9 bg-gradient-to-r from-pink-500 bg-black-300 to-pink-300 rounded-md hover:shadow-[#61b7b2] shadow-md" />
+            </Link>
+            <Link href="https://github.com/varsha1209" rel="noopener noreferrer" target="_blank" className="text-white">
+              <Image src={Github} alt="github" className="h-9 w-9 bg-gradient-to-r from-pink-500 bg-black-300 to-pink-300 rounded-md hover:shadow-[#61b7b2] shadow-md" />
+            </Link>
+          </div>
           <ul className="flex items-center">
             <li>
-              <a
-                href="https://media.licdn.com/dms/document/media/C562DAQEs9PcgFsiOiQ/profile-treasury-document-pdf-analyzed/0/1679150036812?e=1692835200&v=beta&t=nu_c1cEaFRHiTXIFXHi0kLlKlDoo23OWSLaJf5t1Sng"
+              <Link
+                href="https://drive.google.com/drive/u/0/folders/1pp2mOT5zMildP3BCOK01EZSx9nnqEqMB"
+                rel="noopener noreferrer" target="_blank"
                 className="bg-gradient-to-r from-pink-500 bg-black-300 to-pink-300 text-white px-4 py-2 rounded-md ml-8 hover:shadow-[#61b7b2] shadow-md"
               >
                 Resume
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
