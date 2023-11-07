@@ -124,7 +124,7 @@ export default function Home() {
         </div>
       </section>
       {/* project section */}
-      <section className="min-h-screen m-4">
+      <section className="min-h-screen">
         <h3 className="text-3xl py2 text-white">Projects</h3>
         <p className="text-white py-2">
           Throughout my journey, I have crafted a diverse range of captivating applications.
@@ -223,7 +223,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-auto">
-              <p className="text-white px-2">
+              <p className="text-white px-2 pb-4">
                 Working on a Highly Scalable SMS and IP Messaging based mobile app in react native.<br></br>
                 - Used Native Modules, React Navigation and Zustand.<br></br>
                 - Used react-native-pdf library for showing pdf.<br></br>
