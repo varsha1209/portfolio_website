@@ -46,8 +46,8 @@ export default function Home() {
                 Frontend Developer
               </h3>
               <p className="text-md py-5 leading-8 text-white md:text-md max-w-xl mx-auto">
-                I am  experienced and passionate frontend developer with over 2+ years of expertise in creating beautiful, responsive, and user-friendly websites and applications. My proficiency includes <span className="text-pink-500"> HTML ,
-                  CSS , JavaScript </span> and popular frontend frameworks such as <span className="text-pink-500"> React , NextJS.</span>
+                I am  experienced and passionate frontend developer with over 2.6 years of expertise in creating beautiful, responsive, and user-friendly websites and applications. My proficiency includes <span className="text-pink-500"> HTML ,
+                  CSS , JavaScript </span> and popular frontend frameworks such as <span className="text-pink-500"> React , NextJS, and React-Native.</span>
                 <br />
                 <br /> Skilled in developing and implementing complex UI
                 designs with attention to detail and performance optimization.
@@ -66,7 +66,7 @@ export default function Home() {
           </p>
           <p className="text-md py-2 leading-8 text-white">
             I work with latest JavaScript frameworks such as
-            <span className="text-pink-500"> React , NextJS </span> and CSS
+            <span className="text-pink-500"> React , NextJS , React-Native </span> and CSS
             frameworks like
             <span className="text-pink-500"> Sass , Tailwind </span> .
           </p>
